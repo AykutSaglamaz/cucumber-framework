@@ -28,4 +28,4 @@ Feature: Google_Search_Functionality
   Scenario: TC04_tesla_search
     And user search for tesla
     Then verify the result has tesla
-    Then close the applicatione the application
+    Then close the application

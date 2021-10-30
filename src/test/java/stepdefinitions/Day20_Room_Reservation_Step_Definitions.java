@@ -72,6 +72,7 @@ public class Day20_Room_Reservation_Step_Definitions {
         String successMessage = roomReservationPage.successMessage.getText();
         String expectedSuccessMessage =  "RoomReservation was inserted successfully";
         Assert.assertEquals(successMessage, expectedSuccessMessage);
+        roomReservationPage.okButton.click();
     }
 
 }

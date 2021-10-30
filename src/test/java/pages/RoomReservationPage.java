@@ -48,13 +48,19 @@ public class RoomReservationPage {
     public WebElement notes;
 
     @FindBy(id="Approved")
-    public WebElement approved;
+    public WebElement isApproved;
 
     @FindBy(id="IsPaid")
     public WebElement isPaid;
 
     @FindBy(id="btnSubmit")
     public WebElement submitButton;
+
+    @FindBy(xpath = "//div[@class='bootbox-body']")
+    public WebElement successMessage;
+
+    @FindBy(xpath = "//button[@data-bb-handler='ok']")
+    public WebElement okButton;
 
 
 

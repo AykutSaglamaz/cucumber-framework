@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "./src/test/resources/features",
-        glue = "stepdefinitions",
-        tags = "@smoke and @regression",
-        dryRun = false
+        features = "./src/test/resources/features",//must
+        glue = "stepdefinitions",//must
+        tags = "@room_reservation",//optional
+        dryRun = false //optional. Without dryRun we can not check completion error without seeing the browser
 )
 public class Runner {
 }

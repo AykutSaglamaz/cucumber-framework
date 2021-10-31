@@ -56,16 +56,19 @@ public class Day20_Room_Reservation_Step_Definitions {
     }
     @Given("user clicks on the approved_checkbox")
     public void user_clicks_on_the_approved_checkbox() {
-       roomReservationPage.isApproved.click();
+        roomReservationPage.isApproved.click();
     }
+
     @Given("user clicks on the paid_checkbox")
     public void user_clicks_on_the_paid_checkbox() {
     roomReservationPage.isPaid.click();
     }
+
     @Given("user clicks on the save_button")
     public void user_clicks_on_the_save_button() {
     roomReservationPage.submitButton.click();
     }
+
     @Then("user verifies the success_message")
     public void user_verifies_the_success_message() throws InterruptedException {
         Thread.sleep(1000);

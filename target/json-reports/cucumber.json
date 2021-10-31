@@ -3,20 +3,42 @@
     "line": 23,
     "elements": [
       {
-        "start_timestamp": "2021-10-30T19:35:47.969Z",
-        "line": 25,
+        "start_timestamp": "2021-10-31T16:44:48.643Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2996500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
         "name": "TC01_user_should_login_with_manager_profile",
         "description": "",
         "id": "fe1009-room-reservation;tc01-user-should-login-with-manager-profile",
+        "after": [
+          {
+            "result": {
+              "duration": 405000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13465751900,
+              "duration": 14067339100,
               "status": "passed"
             },
-            "line": 26,
+            "line": 25,
             "name": "user is on the application page",
             "match": {
               "location": "stepdefinitions.Day19_Login_Step_Definitions.user_is_on_the_application_page()"
@@ -25,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 291541000,
+              "duration": 371516900,
               "status": "passed"
             },
-            "line": 27,
+            "line": 26,
             "name": "user enters manager_id and manager_password",
             "match": {
               "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_id_and_manager_password(io.cucumber.datatable.DataTable)"
@@ -45,10 +67,10 @@
           },
           {
             "result": {
-              "duration": 6030306900,
+              "duration": 5297934000,
               "status": "passed"
             },
-            "line": 29,
+            "line": 28,
             "name": "user clicks on the login button",
             "match": {
               "location": "stepdefinitions.Day19_Login_Step_Definitions.user_clicks_on_the_login_button()"
@@ -57,10 +79,10 @@
           },
           {
             "result": {
-              "duration": 144531600,
+              "duration": 211579300,
               "status": "passed"
             },
-            "line": 30,
+            "line": 29,
             "name": "verify the \"manager\" is displayed",
             "match": {
               "arguments": [
@@ -72,6 +94,18 @@
               "location": "stepdefinitions.Day19_Login_Step_Definitions.verify_the_is_displayed(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 531687400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "take the screenshot",
+            "match": {
+              "location": "stepdefinitions.Reusable_Step_Definitions.take_the_screenshot()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -81,25 +115,59 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-30T19:36:08.064Z",
-        "line": 32,
+        "start_timestamp": "2021-10-31T16:45:09.662Z",
+        "before": [
+          {
+            "result": {
+              "duration": 989000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
         "name": "TC02_user_should_navigate_room_reservation_page",
         "description": "",
         "id": "fe1009-room-reservation;tc02-user-should-navigate-room-reservation-page",
+        "after": [
+          {
+            "result": {
+              "duration": 307000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3931459100,
+              "duration": 4317226900,
               "status": "passed"
             },
-            "line": 33,
+            "line": 32,
             "name": "user navigates to the create_room_reservation page",
             "match": {
               "location": "stepdefinitions.Day20_Room_Reservation_Step_Definitions.user_navigates_to_the_create_room_reservation_page()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345214100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "take the screenshot",
+            "match": {
+              "location": "stepdefinitions.Reusable_Step_Definitions.take_the_screenshot()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -109,17 +177,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-30T19:36:12.010Z",
+        "start_timestamp": "2021-10-31T16:45:14.656Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
         "line": 35,
         "name": "TC03_user_should_book_a_reservation",
         "description": "",
         "id": "fe1009-room-reservation;tc03-user-should-book-a-reservation",
+        "after": [
+          {
+            "result": {
+              "duration": 2946231900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1977852200,
+              "duration": 2182910000,
               "status": "passed"
             },
             "line": 36,
@@ -163,10 +252,10 @@
           },
           {
             "result": {
-              "duration": 103003600,
+              "duration": 161003600,
               "status": "passed"
             },
-            "line": 40,
+            "line": 39,
             "name": "user clicks on the approved_checkbox",
             "match": {
               "location": "stepdefinitions.Day20_Room_Reservation_Step_Definitions.user_clicks_on_the_approved_checkbox()"
@@ -175,10 +264,10 @@
           },
           {
             "result": {
-              "duration": 99009500,
+              "duration": 134983700,
               "status": "passed"
             },
-            "line": 41,
+            "line": 40,
             "name": "user clicks on the paid_checkbox",
             "match": {
               "location": "stepdefinitions.Day20_Room_Reservation_Step_Definitions.user_clicks_on_the_paid_checkbox()"
@@ -187,7 +276,19 @@
           },
           {
             "result": {
-              "duration": 116079000,
+              "duration": 278004800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "take the screenshot",
+            "match": {
+              "location": "stepdefinitions.Reusable_Step_Definitions.take_the_screenshot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123980900,
               "status": "passed"
             },
             "line": 42,
@@ -199,7 +300,7 @@
           },
           {
             "result": {
-              "duration": 1146830600,
+              "duration": 1157125700,
               "status": "passed"
             },
             "line": 43,
@@ -211,10 +312,22 @@
           },
           {
             "result": {
-              "duration": 831391700,
+              "duration": 396673300,
               "status": "passed"
             },
             "line": 44,
+            "name": "take the screenshot",
+            "match": {
+              "location": "stepdefinitions.Reusable_Step_Definitions.take_the_screenshot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1150314200,
+              "status": "passed"
+            },
+            "line": 45,
             "name": "close the application",
             "match": {
               "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"

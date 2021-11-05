@@ -7,14 +7,18 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {
+                "pretty",//pretty is used for better readable reports or outputs
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"
-                 },
-        features = "./src/test/resources/features",//must
-        glue = "stepdefinitions",//must
-        tags = "@room_reservation",//optional
-        dryRun = false //optional. Without dryRun we can not check completion error without seeing the browser
+                "junit:target/xml-report/cucumber.xml",
+                "rerun:target/failedRerun.txt"
+        },
+        features = "./src/test/resources/features",//MUST
+        glue = "stepdefinitions",//MUST
+        tags = "@excel_automation",//OPTIONAL. WITHOUT TAGS, RUNNER RUNS ALL FEATURES
+        dryRun = false//OPTIONAL.
+        // WITHOUT dryRun(dryRun=false is default,
+        // we can not check completion error without seeing the browser
 )
 public class Runner {
 }

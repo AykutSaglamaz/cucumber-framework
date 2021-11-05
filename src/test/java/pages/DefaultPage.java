@@ -12,11 +12,10 @@ public class DefaultPage {
     @FindBy (xpath = "//span[contains(@class, 'username')]")
     public WebElement userId;
 
-    @FindBy (partialLinkText = "Hotel Management")
+    @FindBy(partialLinkText = "Hotel Management")
     public WebElement hotelManagementLink;
 
-    @FindBy (partialLinkText = "Room reservations")
-    public WebElement roomReservationLink;
-
+    @FindBy(partialLinkText = "Room reservations")
+    public WebElement roomReservationsLink;
 
 }

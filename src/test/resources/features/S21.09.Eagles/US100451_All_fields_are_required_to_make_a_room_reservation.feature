@@ -21,16 +21,21 @@
 #manager,Manager1!
 @room_reservation
 Feature: FE1009_Room_Reservation
+
+  @wip
   Scenario: TC01_user_should_login_with_manager_profile
     Given user is on the application page
     And user enters manager_id and manager_password
-      |manager|Manager1!|
+      |username |password    |
+      |manager  |Manager1!   |
     When user clicks on the login button
     Then verify the "manager" is displayed
     Then take the screenshot
+
   Scenario: TC02_user_should_navigate_room_reservation_page
     Given user navigates to the create_room_reservation page
     Then take the screenshot
+
 #    Sending data using DataTable in cucumber
   Scenario: TC03_user_should_book_a_reservation
     Given user enters all required fields

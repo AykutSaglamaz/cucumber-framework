@@ -6,54 +6,52 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class RoomReservationPage {
-
     public RoomReservationPage(){
-        PageFactory.initElements(Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(),this);
     }
-
     @FindBy(xpath = "//span[@class='hidden-480']")
     public WebElement addRoomReservationButton;
 
-    @FindBy(id ="IDUser")
-    public  WebElement idUser;
+    @FindBy(id = "IDUser")
+    public WebElement idUser;
 
-    @FindBy(id ="IDHotelRoom")
-    public  WebElement idHotelRoom;
+    @FindBy(id = "IDHotelRoom")
+    public WebElement idHotelRoom;
 
-    @FindBy(id ="Price")
-    public  WebElement price;
+    @FindBy(id = "Price")
+    public WebElement price;
 
-    @FindBy(id ="DateStart")
-    public  WebElement dateStart;
+    @FindBy(id = "DateStart")
+    public WebElement dateStart;
 
-    @FindBy(id ="DateEnd")
-    public  WebElement dateEnd;
+    @FindBy(id = "DateEnd")
+    public WebElement dateEnd;
 
-    @FindBy(id="AdultAmount")
-    public WebElement AdultAmount;
+    @FindBy(id = "AdultAmount")
+    public WebElement adultAmount;
 
-    @FindBy(id="ChildrenAmount")
+    @FindBy(id = "ChildrenAmount")
     public WebElement childrenAmount;
 
-    @FindBy(id="ContactNameSurname")
+    @FindBy(id = "ContactNameSurname")
     public WebElement contactNameSurname;
 
-    @FindBy(id="ContactPhone")
+    @FindBy(id = "ContactPhone")
     public WebElement contactPhone;
 
-    @FindBy(id="ContactEmail")
+    @FindBy(id = "ContactEmail")
     public WebElement contactEmail;
 
-    @FindBy(id="Notes")
+    @FindBy(id = "Notes")
     public WebElement notes;
 
-    @FindBy(id="Approved")
+    @FindBy(id = "Approved")
     public WebElement isApproved;
 
-    @FindBy(id="IsPaid")
+    @FindBy(id = "IsPaid")
     public WebElement isPaid;
 
-    @FindBy(id="btnSubmit")
+    @FindBy(id = "btnSubmit")
     public WebElement submitButton;
 
     @FindBy(xpath = "//div[@class='bootbox-body']")
@@ -61,8 +59,5 @@ public class RoomReservationPage {
 
     @FindBy(xpath = "//button[@data-bb-handler='ok']")
     public WebElement okButton;
-
-
-
 
 }

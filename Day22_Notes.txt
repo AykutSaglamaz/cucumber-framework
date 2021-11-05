@@ -1,0 +1,18 @@
+---- The process of parallel execution -----
+1- We need 2 plugins
+-- FailSafe
+-- Surefire
+2- For report we need maven-cucumber-report plugin
+-- we created TestRunner named runner classes
+Because our plugin says -- include TestRunner --
+WE added tags to our runner classes to run our tags simultanously -- at the same time.
+-- The command for maven to run all runner classes -- mvn clean verify -- mvn install verify
+
+
+
+Cucumber Parallel Testing:
+Step 1: Add Cucumber Failsafe Plugin
+Step 2: Add Cucumber Surefire Plugin
+------
+Step 3: Add Cucumber reporting plugin for better visual reports
+===================

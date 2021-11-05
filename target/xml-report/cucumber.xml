@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="34.975">
-    <testcase classname="FE1009_Room_Reservation" name="TC01_user_should_login_with_manager_profile" time="20.983">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="93.926">
+    <testcase classname="FE1010_login_feature" name="admin_login" time="23.229">
         <system-out>
-            <![CDATA[Given user is on the application page.......................................passed
-And user enters manager_id and manager_password.............................passed
-When user clicks on the login button........................................passed
-Then verify the "manager" is displayed......................................passed
+            <![CDATA[Given user log in the application using excel admin.........................passed
 Then take the screenshot....................................................passed
+Then close the application..................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="FE1009_Room_Reservation" name="TC02_user_should_navigate_room_reservation_page" time="4.976">
+    <testcase classname="FE1010_login_feature" name="manager_login" time="70.345">
         <system-out>
-            <![CDATA[Given user navigates to the create_room_reservation page....................passed
-Then take the screenshot....................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="FE1009_Room_Reservation" name="TC03_user_should_book_a_reservation" time="8.542">
-        <system-out>
-            <![CDATA[Given user enters all required fields.......................................passed
-And user clicks on the approved_checkbox....................................passed
-And user clicks on the paid_checkbox........................................passed
-Then take the screenshot....................................................passed
-And user clicks on the save_button..........................................passed
-Then user verifies the success_message......................................passed
+            <![CDATA[Given user log in the application using excel manager.......................passed
 Then take the screenshot....................................................passed
 Then close the application..................................................passed
 ]]>

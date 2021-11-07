@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-05T20:33:26.654Z",
+        "start_timestamp": "2021-11-07T14:48:18.158Z",
         "before": [
           {
             "result": {
-              "duration": 1998700,
+              "duration": 1998600,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "admin_login",
+        "line": 21,
+        "name": "TC01_Testing_the_data_tables_web_page",
         "description": "",
-        "id": "fe1010-login-feature;admin-login",
+        "id": "scenario-outline;tc01-testing-the-data-tables-web-page;test-data-for-the-data-table-test;2",
         "after": [
           {
             "result": {
+              "duration": 2263549500,
               "status": "passed"
             },
             "match": {
@@ -30,38 +31,212 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 21797916300,
+              "duration": 5883370500,
               "status": "passed"
             },
             "line": 5,
-            "name": "user log in the application using excel admin",
+            "name": "user is on the datatables page",
             "match": {
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_log_in_the_application_using_excel_admin()"
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_is_on_the_datatables_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 392521500,
+              "duration": 178004000,
               "status": "passed"
             },
             "line": 6,
-            "name": "take the screenshot",
+            "name": "user clicks on the new button",
             "match": {
-              "location": "stepdefinitions.Reusable_Step_Definitions.take_the_screenshot()"
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118996000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the firstname \"john\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112532500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the lastname \"walker\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"walker\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128004500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the position \"doctor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"doctor\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_position(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106002900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the office \"LA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LA\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_office(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112999200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the extension \"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"456\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_extension(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220996800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the startdate \"2022-10-10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-10-10\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_startdate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107510000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the salary \"78900\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"78900\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_salary(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104002300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the create button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131998200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "search for the first name \"john\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.search_for_the_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3062709700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the name fields contains first name \"john\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.verify_the_name_fields_contains_first_name(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 932996700,
+              "duration": 795425700,
               "status": "passed"
             },
-            "line": 7,
+            "line": 17,
             "name": "close the application",
             "match": {
               "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
@@ -71,15 +246,15 @@
         ],
         "tags": [
           {
-            "name": "@excel_automation"
+            "name": "@data_tables_hw"
           },
           {
-            "name": "@excel_admin"
+            "name": "@scenario_outline_data_tables"
           }
         ]
       },
       {
-        "start_timestamp": "2021-11-05T20:33:49.900Z",
+        "start_timestamp": "2021-11-07T14:48:31.664Z",
         "before": [
           {
             "result": {
@@ -90,14 +265,1015 @@
             }
           }
         ],
-        "line": 10,
-        "name": "manager_login",
+        "line": 22,
+        "name": "TC01_Testing_the_data_tables_web_page",
         "description": "",
-        "id": "fe1010-login-feature;manager-login",
+        "id": "scenario-outline;tc01-testing-the-data-tables-web-page;test-data-for-the-data-table-test;3",
         "after": [
           {
             "result": {
-              "duration": 1002500,
+              "duration": 2155059400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1105504300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the datatables page",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_is_on_the_datatables_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184000800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the new button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120000700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the firstname \"ihsan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ihsan\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121548500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the lastname \"kim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kim\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138998100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the position \"nurse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nurse\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_position(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130000700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the office \"TX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TX\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_office(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121564900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the extension \"899\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"899\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_extension(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205036100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the startdate \"2022-10-11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-10-11\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_startdate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115996500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the salary \"789000009\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"789000009\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_salary(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92005000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the create button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161994500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "search for the first name \"ihsan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ihsan\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.search_for_the_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3053803500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the name fields contains first name \"ihsan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ihsan\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.verify_the_name_fields_contains_first_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 795328900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_tables_hw"
+          },
+          {
+            "name": "@scenario_outline_data_tables"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T14:48:40.192Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "TC01_Testing_the_data_tables_web_page",
+        "description": "",
+        "id": "scenario-outline;tc01-testing-the-data-tables-web-page;test-data-for-the-data-table-test;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2126673900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1023071400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the datatables page",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_is_on_the_datatables_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200999700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the new button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109000400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the firstname \"Jim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jim\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108000900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the lastname \"cam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cam\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110001100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the position \"qa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_position(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98997800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the office \"AR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AR\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_office(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111005000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the extension \"23462\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23462\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_extension(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184128000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the startdate \"2022-10-12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-10-12\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_startdate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96000700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the salary \"789000006\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"789000006\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_salary(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92000900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the create button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122000100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "search for the first name \"Jim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jim\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.search_for_the_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3047252500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the name fields contains first name \"Jim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jim\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.verify_the_name_fields_contains_first_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 802886900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_tables_hw"
+          },
+          {
+            "name": "@scenario_outline_data_tables"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T14:48:48.456Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1004300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "TC01_Testing_the_data_tables_web_page",
+        "description": "",
+        "id": "scenario-outline;tc01-testing-the-data-tables-web-page;test-data-for-the-data-table-test;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2130108100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1097482000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the datatables page",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_is_on_the_datatables_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242999500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the new button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115999000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the firstname \"Betty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Betty\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122998300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the lastname \"york\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"york\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118001900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the position \"lawyer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lawyer\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_position(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113999400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the office \"NY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NY\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_office(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99998000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the extension \"5613\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5613\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_extension(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198000800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the startdate \"2022-10-13\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-10-13\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_startdate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81998800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the salary \"6100000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6100000\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_salary(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the create button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142997200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "search for the first name \"Betty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Betty\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.search_for_the_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3050744800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the name fields contains first name \"Betty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Betty\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.verify_the_name_fields_contains_first_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 754053900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_tables_hw"
+          },
+          {
+            "name": "@scenario_outline_data_tables"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T14:48:56.806Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "TC01_Testing_the_data_tables_web_page",
+        "description": "",
+        "id": "scenario-outline;tc01-testing-the-data-tables-web-page;test-data-for-the-data-table-test;6",
+        "after": [
+          {
+            "result": {
+              "duration": 2074189300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1054576200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the datatables page",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_is_on_the_datatables_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191003200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the new button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117999000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the firstname \"Sue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sue\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106999300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the lastname \"Lui\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lui\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104003700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the position \"dev\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dev\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_position(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111996400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the office \"CA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CA\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_office(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101998300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the extension \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_extension(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195997800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the startdate \"2022-10-14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-10-14\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_startdate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107007200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters the salary \"10000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10000000\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_the_salary(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84995900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the create button",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_clicks_on_the_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107999600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "search for the first name \"Sue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sue\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.search_for_the_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3042329600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify the name fields contains first name \"Sue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sue\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.verify_the_name_fields_contains_first_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 808438500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the application",
+            "match": {
+              "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_tables_hw"
+          },
+          {
+            "name": "@scenario_outline_data_tables"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T14:49:05.035Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Creating a table using Data Table",
+        "description": "",
+        "id": "scenario-outline;creating-a-table-using-data-table",
+        "after": [
+          {
+            "result": {
+              "duration": 2081976200,
               "status": "passed"
             },
             "match": {
@@ -110,59 +1286,209 @@
         "steps": [
           {
             "result": {
-              "duration": 69257817700,
+              "duration": 1126026700,
               "status": "passed"
             },
-            "line": 11,
-            "name": "user log in the application using excel manager",
+            "line": 29,
+            "name": "user is on the datatables page",
             "match": {
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_log_in_the_application_using_excel_manager()"
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_is_on_the_datatables_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 220994600,
+              "duration": 28328923900,
               "status": "passed"
             },
-            "line": 12,
-            "name": "take the screenshot",
+            "line": 30,
+            "name": "user enters all table required fields and verifies the data creation",
             "match": {
-              "location": "stepdefinitions.Reusable_Step_Definitions.take_the_screenshot()"
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_all_table_required_fields_and_verifies_the_data_creation(io.cucumber.datatable.DataTable)"
             },
-            "keyword": "Then "
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "position",
+                  "office",
+                  "extension",
+                  "start_date",
+                  "salary"
+                ]
+              },
+              {
+                "cells": [
+                  "Tim",
+                  "walker",
+                  "doctor",
+                  "LA",
+                  "456",
+                  "2022-10-10",
+                  "78900"
+                ]
+              },
+              {
+                "cells": [
+                  "ihsan",
+                  "kim",
+                  "nurse",
+                  "TX",
+                  "899",
+                  "2022-10-11",
+                  "7890009"
+                ]
+              },
+              {
+                "cells": [
+                  "Jim",
+                  "cam",
+                  "qa",
+                  "AR",
+                  "23462",
+                  "2022-10-12",
+                  "7890000"
+                ]
+              },
+              {
+                "cells": [
+                  "Betty",
+                  "york",
+                  "lawyer",
+                  "NY",
+                  "5613",
+                  "2022-10-13",
+                  "6100000"
+                ]
+              },
+              {
+                "cells": [
+                  "Sue",
+                  "Lui",
+                  "dev",
+                  "CA",
+                  "400",
+                  "2022-10-14",
+                  "10000000"
+                ]
+              }
+            ],
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 861398800,
+              "duration": 758560800,
               "status": "passed"
             },
-            "line": 13,
+            "line": 37,
             "name": "close the application",
             "match": {
               "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@excel_automation"
+            "name": "@data_tables_hw"
           },
           {
-            "name": "@excel_manager"
+            "name": "@datatables_data_table"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-07T14:49:37.340Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Creating a table using excel",
+        "description": "",
+        "id": "scenario-outline;creating-a-table-using-excel",
+        "after": [
+          {
+            "result": {
+              "duration": 2071850900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1097928400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user is on the datatables page",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_is_on_the_datatables_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34441113500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enters all table required fields and verifies the data creation with \"data_tables_sheet\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"data_tables_sheet\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepdefinitions.homework.DataTablesStepDefs.user_enters_all_table_required_fields_and_verifies_the_data_creation_with(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 745172100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "close the applicatione application",
+            "match": {
+              "location": "stepdefinitions.homework.DataTablesStepDefs.close_the_applicatione_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@data_tables_hw"
+          },
+          {
+            "name": "@excel_data_tables"
           }
         ]
       }
     ],
-    "name": "FE1010_login_feature",
+    "name": "scenario_outline",
     "description": "",
-    "id": "fe1010-login-feature",
+    "id": "scenario-outline",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/S21.10/US100452_Login_Using_Excel.feature",
+    "uri": "file:src/test/resources/features/homework/user_shoould_be_able_to_create_new_data_in_the_applicaiton.feature",
     "tags": [
       {
-        "name": "@excel_automation",
+        "name": "@data_tables_hw",
         "type": "Tag",
         "location": {
           "line": 1,

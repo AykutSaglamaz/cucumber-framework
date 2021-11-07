@@ -1,18 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="93.926">
-    <testcase classname="FE1010_login_feature" name="admin_login" time="23.229">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="117.869">
+    <testcase classname="scenario_outline" name="TC01_Testing_the_data_tables_web_page" time="13.493">
         <system-out>
-            <![CDATA[Given user log in the application using excel admin.........................passed
-Then take the screenshot....................................................passed
+            <![CDATA[Given user is on the datatables page........................................passed
+And user clicks on the new button...........................................passed
+When user enters the firstname "john".......................................passed
+And user enters the lastname "walker".......................................passed
+And user enters the position "doctor".......................................passed
+When user enters the office "LA"............................................passed
+When user enters the extension "456"........................................passed
+When user enters the startdate "2022-10-10".................................passed
+When user enters the salary "78900".........................................passed
+And user clicks on the create button........................................passed
+And search for the first name "john"........................................passed
+Then verify the name fields contains first name "john"......................passed
 Then close the application..................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="FE1010_login_feature" name="manager_login" time="70.345">
+    <testcase classname="scenario_outline" name="TC01_Testing_the_data_tables_web_page_2" time="8.514">
         <system-out>
-            <![CDATA[Given user log in the application using excel manager.......................passed
-Then take the screenshot....................................................passed
+            <![CDATA[Given user is on the datatables page........................................passed
+And user clicks on the new button...........................................passed
+When user enters the firstname "ihsan"......................................passed
+And user enters the lastname "kim"..........................................passed
+And user enters the position "nurse"........................................passed
+When user enters the office "TX"............................................passed
+When user enters the extension "899"........................................passed
+When user enters the startdate "2022-10-11".................................passed
+When user enters the salary "789000009".....................................passed
+And user clicks on the create button........................................passed
+And search for the first name "ihsan".......................................passed
+Then verify the name fields contains first name "ihsan".....................passed
 Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="scenario_outline" name="TC01_Testing_the_data_tables_web_page_3" time="8.244">
+        <system-out>
+            <![CDATA[Given user is on the datatables page........................................passed
+And user clicks on the new button...........................................passed
+When user enters the firstname "Jim"........................................passed
+And user enters the lastname "cam"..........................................passed
+And user enters the position "qa"...........................................passed
+When user enters the office "AR"............................................passed
+When user enters the extension "23462"......................................passed
+When user enters the startdate "2022-10-12".................................passed
+When user enters the salary "789000006".....................................passed
+And user clicks on the create button........................................passed
+And search for the first name "Jim".........................................passed
+Then verify the name fields contains first name "Jim".......................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="scenario_outline" name="TC01_Testing_the_data_tables_web_page_4" time="8.343">
+        <system-out>
+            <![CDATA[Given user is on the datatables page........................................passed
+And user clicks on the new button...........................................passed
+When user enters the firstname "Betty"......................................passed
+And user enters the lastname "york".........................................passed
+And user enters the position "lawyer".......................................passed
+When user enters the office "NY"............................................passed
+When user enters the extension "5613".......................................passed
+When user enters the startdate "2022-10-13".................................passed
+When user enters the salary "6100000".......................................passed
+And user clicks on the create button........................................passed
+And search for the first name "Betty".......................................passed
+Then verify the name fields contains first name "Betty".....................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="scenario_outline" name="TC01_Testing_the_data_tables_web_page_5" time="8.218">
+        <system-out>
+            <![CDATA[Given user is on the datatables page........................................passed
+And user clicks on the new button...........................................passed
+When user enters the firstname "Sue"........................................passed
+And user enters the lastname "Lui"..........................................passed
+And user enters the position "dev"..........................................passed
+When user enters the office "CA"............................................passed
+When user enters the extension "400"........................................passed
+When user enters the startdate "2022-10-14".................................passed
+When user enters the salary "10000000"......................................passed
+And user clicks on the create button........................................passed
+And search for the first name "Sue".........................................passed
+Then verify the name fields contains first name "Sue".......................passed
+Then close the application..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="scenario_outline" name="Creating a table using Data Table" time="32.299">
+        <system-out>
+            <![CDATA[Given user is on the datatables page........................................passed
+And user enters all table required fields and verifies the data creation....passed
+And close the application...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="scenario_outline" name="Creating a table using excel" time="38.358">
+        <system-out>
+            <![CDATA[Given user is on the datatables page........................................passed
+And user enters all table required fields and verifies the data creation with "data_tables_sheet".passed
+And close the applicatione application......................................passed
 ]]>
         </system-out>
     </testcase>

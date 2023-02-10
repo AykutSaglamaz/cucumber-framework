@@ -40,4 +40,4 @@ Feature: scenario_outline
   Scenario: Creating a table using excel
     Given user is on the datatables page
     And user enters all table required fields and verifies the data creation with "data_tables_sheet"
-   And close the applicatione application
+   And close the application

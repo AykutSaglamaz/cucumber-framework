@@ -115,9 +115,10 @@ public class DataTablesStepDefs {
     }
 
     @Given("close the applicatione application")
-    public void close_the_applicatione_application() {
+    public void close_the_application_application() {
         Driver.closeDriver();
     }
+
     //    DATA TABLES
     @When("user enters all table required fields and verifies the data creation")
     public void user_enters_all_table_required_fields_and_verifies_the_data_creation(DataTable dataTable) {

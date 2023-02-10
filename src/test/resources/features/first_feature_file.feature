@@ -16,10 +16,6 @@ Feature: Google_Search_Functionality
     Then verify the result has tea pot
     Then close the application
 
-#  Write 2 more test cases in this file
-#  TC03_flower search and verify if the result has flower related stuff
-#  TC04_tesla search and verify if the result has tesla related stuff
-#  make sure to use reusable methods for step 1 and step 4
   Scenario: TC03_flower_search
     And user search for flower
     Then verify the result has flower

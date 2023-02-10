@@ -9,6 +9,7 @@ public class RoomReservationPage {
     public RoomReservationPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+
     @FindBy(xpath = "//span[@class='hidden-480']")
     public WebElement addRoomReservationButton;
 

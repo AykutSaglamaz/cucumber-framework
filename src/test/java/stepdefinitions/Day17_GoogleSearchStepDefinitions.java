@@ -36,6 +36,7 @@ public class Day17_GoogleSearchStepDefinitions {
         Driver.closeDriver();
     }
 
+
     @Given("user search for tea pot")
     public void user_search_for_tea_pot() {
         googlePage.googleSearchBox.sendKeys("tea pot" + Keys.ENTER);
@@ -67,6 +68,7 @@ public class Day17_GoogleSearchStepDefinitions {
     public void verify_the_result_has_tesla() {
         String title = Driver.getDriver().getTitle();
         Assert.assertTrue(title.contains("tesla"));
+
     }
     @Given("user search for {string}")
     public void user_search_for(String string) {

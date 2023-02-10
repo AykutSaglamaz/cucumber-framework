@@ -9,6 +9,7 @@ public class DefaultPage {
     public DefaultPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+
     @FindBy (xpath = "//span[contains(@class, 'username')]")
     public WebElement userId;
 

@@ -8,6 +8,7 @@ public class DataTablesPage {
     public DataTablesPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+
     @FindBy(xpath = "//div[@class='dt-buttons']//span")
     public WebElement newButton;
 

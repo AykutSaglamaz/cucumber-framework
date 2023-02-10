@@ -1,0 +1,9 @@
+file:src/test/resources/features/S21.09.Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature:26:35:40
+file:src/test/resources/features/first_feature_file.feature:8:14:19:24
+file:src/test/resources/features/day18_scenario_outline_2.feature:13:14:15:16:17
+file:src/test/resources/features/homework/user_shoould_be_able_to_create_new_data_in_the_applicaiton.feature:21:22:23:24:25:28:40
+file:src/test/resources/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature:15:16:41
+file:src/test/resources/features/selenium_grid_features/selenium_grid.feature:4:20
+file:src/test/resources/features/S21.10/US100452_Login_Using_Excel.feature:4:10
+file:src/test/resources/features/day18_parametrizing_ff_using_string.feature:3:10:16:22:28:34
+file:src/test/resources/features/day18_scenario_outline_1.feature:14:15:16:17:18:19:20
